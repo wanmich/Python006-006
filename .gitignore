@@ -1,2 +1,7 @@
 week01/var/
 .idea/
+week02/test.py
+.vscode
+/week04/frontend.zip
+week04/Week04/Douban/__pycache__/
+!/week04/Week04/.idea/
