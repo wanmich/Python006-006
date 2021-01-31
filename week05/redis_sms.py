@@ -38,12 +38,12 @@ if __name__ == '__main__':
     conn = redis.Redis(host='192.168.50.231', password='zaq1@xsw2')
     telephone_numbers = [12345654321, 88887777666]
     [conn.hmset(str(t_num), {'send_at': 0, 'count': 0, 't1': 0}) for t_num in telephone_numbers]
-    sendsms(12345654321, 'hello')
-    sendsms(12345654321, 'hi')
-    sendsms(12345654321, 'idiot')
-    sendsms(12345654321, 'Are you Trump Donald')
-    sendsms(12345654321, 'I am Biden, thank you brother')
-    sendsms(12345654321, '今天天气很好，万里无云，蓝蓝的天空上飘着洁白的云彩')
+    sendsms(12345654321, 'hello, world!')
+    sendsms(12345654321, 'msg2')
+    sendsms(12345654321, 'msg3')
+    sendsms(12345654321, 'msg4')
+    sendsms(12345654321, 'msg5')
+    sendsms(12345654321, 'This is Mr long msg, msg6. This is Mr long msg, msg6. This is Mr long msg, msg6. This is Mr long msg, msg6.')
     sendsms(88887777666, 'How are you?')
     sendsms(88887777666, ''.join([str(i) for i in range(203)]))
     sendsms(88887777666, '1'*140)
