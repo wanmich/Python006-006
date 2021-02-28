@@ -5,3 +5,8 @@ week02/test.py
 /week04/frontend.zip
 week04/Week04/Douban/__pycache__/
 !/week04/Week04/.idea/
+week09/Week09/.vscode
+week09/Week09/db.sqlite3
+week09/Week09/Week09/__pycache__/
+week09/Week09/orders/__pycache__/
+week09/Week09/orders/migrations/
